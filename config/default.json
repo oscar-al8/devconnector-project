@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://oscar1702:angelik1702@devconnector.y8flm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://oscar1702:angelik1702@devconnector.y8flm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "ale1702"
 }

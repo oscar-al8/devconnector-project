@@ -247,7 +247,6 @@ router.post('/comment/:id', [auth, [
         res.json(post.comments);
 
     }catch(err){
-        console.error(err.message);
         if(err.kind == 'ObjectId'){
             return res.status(400).json({
                 msg: 'Post not found'

@@ -28,19 +28,23 @@ const Education = ({ education, deleteEducation }) => {
     return (
         <Fragment>
             <h2 className='my-2'>Education Credentials</h2>
-            <table className='table'>
-                <thead>
-                    <tr>
-                        <th>School</th>
-                        <th className='hide-sm'>Degree</th>
-                        <th className='hide-sm'>Years</th>
-                        <th />
-                    </tr>
-                </thead>
-                <tbody>
-                    {educations}
-                </tbody>
-            </table>
+            {educations.length > 0 ? (
+                <table className='table'>
+                    <thead>
+                        <tr>
+                            <th>School</th>
+                            <th className='hide-sm'>Degree</th>
+                            <th className='hide-sm'>Years</th>
+                            <th />
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {educations}
+                    </tbody>
+                </table>
+            ) : (
+                <h4>No education credentials</h4>
+            )}
         </Fragment>
     );
 

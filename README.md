@@ -1,2 +1,3 @@
 # DevConnector Project
-A personal project made with MERN Stack and soon deployed to Heroku.
+
+A personal project made with MERN Stack and deployed to Heroku.
